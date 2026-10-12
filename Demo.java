@@ -1,16 +1,13 @@
-package asdfgh;
+package rashmi;
 
-public class Demo {
-	Demo()
-	{
-		System.out.println("abc");
+public class Demo
+{
+	static void display() {
+		System.out.println("nikhita");
 	}
-	Demo(int a)
+	public static void main(String[]args)
 	{
-		System.out.println("" +a);
+		display();
 	}
-	public static void main(String[]args) {
-	Demo bb= new Demo();
-	Demo rr=new Demo(20);
-}
+
 }
